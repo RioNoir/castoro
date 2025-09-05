@@ -14,7 +14,7 @@
 
 ---
 
-Castoro is open source software that takes advantage of Jellyfin's fantastic Media System and adds features so you can use it to its full potential. Castoro is not a direct fork of Jellyfin and is fully utilized in its “original” state, it is enhanced by taking advantage of the software's API, this allows you to always have the latest updated version of Jellyfin and use all its basic features.
+Castoro is open source software that takes advantage of Jellyfin's fantastic Media System and adds features so you can use it to its full potential. Castoro is not a direct fork of Jellyfin and is fully utilized in its “original” state, it is enhanced by taking advantage of the software's API, this allows you to always have the latest updated version of Jellyfin and use all its basic features. Castoro does not contain any source code from Jellyfin or other libraries used.
 
 ## Installation
 
