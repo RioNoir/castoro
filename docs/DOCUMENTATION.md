@@ -12,16 +12,16 @@ In addition to the basic Jellyfin settings, available in the official documentat
 
 In this section you can change the server url, which cannot be configured through Jellyfin's network settings (this is because Castoro already uses a reverse proxy by itself to work).
 
-![castoro](https://raw.githubusercontent.com/NsCRio/castoro/refs/heads/main/docs/images/1.png)
+![castoro](https://raw.githubusercontent.com/RioNoir/castoro/refs/heads/main/docs/images/1.png)
 
 You will also be able to configure the settings for Addons, Global Searches, and Streams (content video resources). 
 
-![castoro](https://raw.githubusercontent.com/NsCRio/castoro/refs/heads/main/docs/images/2.png)
+![castoro](https://raw.githubusercontent.com/RioNoir/castoro/refs/heads/main/docs/images/2.png)
 
 You can also configure additional services, such as the TMDB API to use it in searches, MediaFlow Proxy to play content through it, and configure an HTTP Proxy for all http requests that Castoro makes (for searches and addons, not streams).
 
-![castoro](https://raw.githubusercontent.com/NsCRio/castoro/refs/heads/main/docs/images/3.png)
-![castoro](https://raw.githubusercontent.com/NsCRio/castoro/refs/heads/main/docs/images/4.png)
+![castoro](https://raw.githubusercontent.com/RioNoir/castoro/refs/heads/main/docs/images/3.png)
+![castoro](https://raw.githubusercontent.com/RioNoir/castoro/refs/heads/main/docs/images/4.png)
 
 You also have the ability to configure the tasks that Castoro does in the backround and specify how often it should do them.
 
@@ -29,24 +29,24 @@ You also have the ability to configure the tasks that Castoro does in the backro
 
 Just like Jellyfin, Castoro also has tasks, these are run automatically based on the configuration but can be run manually in the task section if needed.
 
-![castoro](https://raw.githubusercontent.com/NsCRio/castoro/refs/heads/main/docs/images/5.png)
+![castoro](https://raw.githubusercontent.com/RioNoir/castoro/refs/heads/main/docs/images/5.png)
 
 
 ## Libraries
 
 On initial setup Castoro will create all the folders he needs and automatically insert the various contents. These automatically created libraries cannot be deleted, but there is nothing to prevent you from creating new ones and putting other contents in there. It is recommended not to insert manual content inside the folders created automatically by Castoro, however, you can still do so if you maintain the correct structure of the folders.
 
-![castoro](https://raw.githubusercontent.com/NsCRio/castoro/refs/heads/main/docs/images/6.png)
+![castoro](https://raw.githubusercontent.com/RioNoir/castoro/refs/heads/main/docs/images/6.png)
 
 ## Global Search
 
 Global Search leverages the API and Addons to show you the content you are looking for. Once you find it you can easily add it to your library via the heart icon (in some apps it is a star). After a few seconds you will find the content in your library.
 
-![castoro](https://raw.githubusercontent.com/NsCRio/castoro/refs/heads/main/docs/images/7.png)
+![castoro](https://raw.githubusercontent.com/RioNoir/castoro/refs/heads/main/docs/images/7.png)
 
 ## Direct Url
 
-![castoro](https://raw.githubusercontent.com/NsCRio/castoro/refs/heads/main/docs/images/10.png)
+![castoro](https://raw.githubusercontent.com/RioNoir/castoro/refs/heads/main/docs/images/10.png)
 
 The Direct Url feature, allows a given piece of content to be played directly from a link, somewhat like how it works for .strm files. The advantage is the possibility of having dynamic parameters. There are several dynamic parameters:
 
@@ -106,11 +106,11 @@ Addons are based on this [SDK](https://github.com/Stremio/stremio-addon-sdk).
 
 Installing an Addon is super easy, just go to Settings and Catalog, from there clicking on the gear icon in the top left corner will allow you to import the Addon repository.
 
-![castoro](https://raw.githubusercontent.com/NsCRio/castoro/refs/heads/main/docs/images/11.png)
+![castoro](https://raw.githubusercontent.com/RioNoir/castoro/refs/heads/main/docs/images/11.png)
 
 Once the repository is added the addon will be automatically installed.
 
-![castoro](https://raw.githubusercontent.com/NsCRio/castoro/refs/heads/main/docs/images/12.png)
+![castoro](https://raw.githubusercontent.com/RioNoir/castoro/refs/heads/main/docs/images/12.png)
 
 ### How to use an Addon?
 
@@ -118,10 +118,9 @@ Once installed, you don't need to do anything else; the system is ready for you 
 
 If the addon contains a Catalog, you will see the new **Discover** section on the homepage, allowing you to browse the catalog and view its contents.
 
-![castoro](https://raw.githubusercontent.com/NsCRio/castoro/refs/heads/main/docs/images/13.png)
-![castoro](https://raw.githubusercontent.com/NsCRio/castoro/refs/heads/main/docs/images/14.png)
-![castoro](https://raw.githubusercontent.com/NsCRio/castoro/refs/heads/main/docs/images/15.png)
-![castoro](https://raw.githubusercontent.com/NsCRio/castoro/refs/heads/main/docs/images/16.png)
+![castoro](https://raw.githubusercontent.com/RioNoir/castoro/refs/heads/main/docs/images/14.png)
+![castoro](https://raw.githubusercontent.com/RioNoir/castoro/refs/heads/main/docs/images/15.png)
+![castoro](https://raw.githubusercontent.com/RioNoir/castoro/refs/heads/main/docs/images/16.png)
 
 A catalog does not allow you to view content, only to browse through it and eventually add it to the library to be viewed via an <u>Stream Addon</u>.
 
