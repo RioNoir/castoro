@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  castoro:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: nscrio/castoro:latest
+    container_name: castoro
+    hostname: castoro
+    restart: unless-stopped
+    environment:
+      - PUID=1000
+      - GUID=1000
+      - TZ=Europe/Rome
+      - APP_ENV=local           #Only for development
+      - APP_DEBUG=true          #Only for development
+    volumes:
+      - ./www:/var/www          #Only for development
+      - ./src:/var/src          #Only for development
+      - ./data:/data
+    ports:
+      - "8096:8096"
