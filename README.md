@@ -75,7 +75,7 @@ By default, Jellyfin allows you to manually add media content to the library for
 
 - **Discover**, that is a function that is shown from the moment there are Addons with catalogs, it allows you to explore these catalogs and find content that can be added to the library.
 
-View FULL DOCUMENTATION [HERE](https://github.com/NsCRio/castoro/blob/main/docs/DOCUMENTATION.md).
+View FULL DOCUMENTATION [HERE](https://github.com/RioNoir/castoro/blob/main/docs/DOCUMENTATION.md).
 
 ## Supported Clients
 
